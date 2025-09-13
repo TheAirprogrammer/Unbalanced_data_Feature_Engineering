@@ -1,0 +1,97 @@
+{
+  "LR": {
+    "selected_features": [
+      "edge_density",
+      "edge_intensity_std",
+      "HSV_H_mean",
+      "HSV_H_std",
+      "HSV_S_mean",
+      "HSV_S_std",
+      "HSV_V_std",
+      "LAB_L_std",
+      "LAB_A_mean",
+      "LAB_A_std",
+      "LAB_B_mean",
+      "LAB_B_std",
+      "area",
+      "perimeter",
+      "aspect_ratio",
+      "eccentricity",
+      "kmeans_lbl"
+    ],
+    "best_hyperparameters": {
+      "C": 10
+    },
+    "cv_accuracy": 0.897897794595421
+  },
+  "DT": {
+    "selected_features": [
+      "edge_intensity_std",
+      "HSV_S_mean",
+      "HSV_S_std",
+      "LAB_L_mean",
+      "LAB_A_mean",
+      "LAB_B_std",
+      "area",
+      "perimeter",
+      "kmeans_lbl"
+    ],
+    "best_hyperparameters": {
+      "max_depth": null,
+      "min_samples_split": 2
+    },
+    "cv_accuracy": 0.8917039330352023
+  },
+  "KNN": {
+    "selected_features": [
+      "edge_density",
+      "edge_intensity_mean",
+      "edge_intensity_std",
+      "HSV_H_mean",
+      "HSV_S_mean",
+      "HSV_S_std",
+      "HSV_V_mean",
+      "HSV_V_std",
+      "LAB_L_mean",
+      "LAB_L_std",
+      "LAB_A_mean",
+      "LAB_A_std",
+      "LAB_B_mean",
+      "LAB_B_std",
+      "area",
+      "perimeter",
+      "aspect_ratio"
+    ],
+    "best_hyperparameters": {
+      "n_neighbors": 4,
+      "p": 1,
+      "weights": "distance"
+    },
+    "cv_accuracy": 0.9486278331995566
+  },
+  "GMM": {
+    "selected_features": [
+      "edge_density",
+      "edge_intensity_mean",
+      "edge_intensity_std",
+      "HSV_H_mean",
+      "HSV_H_std",
+      "HSV_S_mean",
+      "HSV_S_std",
+      "HSV_V_std",
+      "LAB_L_std",
+      "LAB_A_mean",
+      "LAB_A_std",
+      "LAB_B_mean",
+      "LAB_B_std",
+      "area",
+      "perimeter",
+      "aspect_ratio",
+      "kmeans_lbl"
+    ],
+    "best_hyperparameters": {
+      "n_components": 2
+    },
+    "cv_accuracy": 0.9220196460650536
+  }
+}

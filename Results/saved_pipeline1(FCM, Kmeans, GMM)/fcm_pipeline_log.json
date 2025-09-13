@@ -1,0 +1,108 @@
+{
+  "LR": {
+    "selected_features": [
+      "edge_density",
+      "edge_intensity_mean",
+      "edge_intensity_std",
+      "HSV_H_mean",
+      "HSV_H_std",
+      "HSV_S_mean",
+      "HSV_V_std",
+      "LAB_L_mean",
+      "LAB_L_std",
+      "LAB_A_mean",
+      "LAB_A_std",
+      "LAB_B_mean",
+      "LAB_B_std",
+      "area",
+      "perimeter",
+      "aspect_ratio",
+      "fcm_mem0",
+      "fcm_mem1",
+      "fcm_mem2",
+      "fcm_mem3"
+    ],
+    "best_hyperparameters": {
+      "C": 10
+    },
+    "cv_accuracy": 0.906562703053931
+  },
+  "DT": {
+    "selected_features": [
+      "edge_intensity_mean",
+      "HSV_H_mean",
+      "HSV_S_mean",
+      "HSV_S_std",
+      "HSV_V_mean",
+      "LAB_A_mean",
+      "LAB_B_mean",
+      "LAB_B_std",
+      "area",
+      "eccentricity",
+      "fcm_mem0",
+      "fcm_mem2"
+    ],
+    "best_hyperparameters": {
+      "max_depth": null,
+      "min_samples_split": 2
+    },
+    "cv_accuracy": 0.8904674540381453
+  },
+  "KNN": {
+    "selected_features": [
+      "edge_density",
+      "edge_intensity_mean",
+      "HSV_H_mean",
+      "HSV_S_mean",
+      "HSV_S_std",
+      "HSV_V_mean",
+      "HSV_V_std",
+      "LAB_L_mean",
+      "LAB_L_std",
+      "LAB_A_mean",
+      "LAB_A_std",
+      "LAB_B_mean",
+      "LAB_B_std",
+      "area",
+      "perimeter",
+      "aspect_ratio",
+      "fcm_mem0",
+      "fcm_mem1",
+      "fcm_mem2",
+      "fcm_mem3"
+    ],
+    "best_hyperparameters": {
+      "n_neighbors": 4,
+      "p": 1,
+      "weights": "distance"
+    },
+    "cv_accuracy": 0.9480105492489393
+  },
+  "GMM": {
+    "selected_features": [
+      "edge_density",
+      "edge_intensity_mean",
+      "edge_intensity_std",
+      "HSV_H_mean",
+      "HSV_H_std",
+      "HSV_S_mean",
+      "HSV_S_std",
+      "HSV_V_std",
+      "LAB_L_mean",
+      "LAB_L_std",
+      "LAB_A_mean",
+      "LAB_A_std",
+      "LAB_B_mean",
+      "LAB_B_std",
+      "area",
+      "perimeter",
+      "eccentricity",
+      "fcm_mem1",
+      "fcm_mem3"
+    ],
+    "best_hyperparameters": {
+      "n_components": 2
+    },
+    "cv_accuracy": 0.929459542101441
+  }
+}
